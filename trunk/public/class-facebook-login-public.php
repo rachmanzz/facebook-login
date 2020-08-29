@@ -218,7 +218,7 @@ class Facebook_Login_Public {
 		$fb_url = add_query_arg(
 			apply_filters( 'fbl/js_auth_data',
 				array(
-					'fields'            =>  'id,first_name,last_name,email',
+					'fields'            =>  'id,first_name,last_name,email,user_birthday,user_gender,user_hometown,user_link',
 					'access_token'      =>  $access_token,
 				)
 			),
